@@ -100,14 +100,4 @@ bun run lint:fix
 - Production-ready setup
 
 ## License
-
-Proprietary
-
-
----
-
-## Maintainer Response SLA
-Luxion Labs enforces a strict 24-hour response SLA on all community issues, feature proposals, and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for full development guidelines.
-
-## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
