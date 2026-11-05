@@ -1,66 +1,34 @@
 # Prismarine
 
-Production-grade desktop frontend application built with Next.js, TypeScript, and Bun.
-
-## Tech Stack
-
-- **Framework**: Next.js (App Router)
-- **Language**: TypeScript
-- **Package Manager**: Bun
-- **Styling**: SCSS (structured architecture)
-- **State Management**: Zustand
-- **Desktop Integration**: Tauri (preparation in place)
-
-## Setup
-
-### Prerequisites
-- Bun (https://bun.sh)
-
-### Installation
+> Fast, local-first API testing and debugging workbench built with Next.js and Bun.
 
 ```bash
-bun install
+git clone https://github.com/Luxion-Labs/prism.git && cd prism && bun install && bun dev
 ```
 
-### Development
+![Prismarine Banner](assets/images/banner.svg)
 
-```bash
-bun run dev
-```
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Preview-00F2FE?style=flat-square)](https://prism.luxionlabs.com) [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE) [![SLA](https://img.shields.io/badge/Response_SLA-24_Hours-4FACFE?style=flat-square)](CONTRIBUTING.md)
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build
-
-```bash
-bun run build
-bun run start
-```
-
-### Linting
-
-```bash
-bun run lint
-bun run lint:fix
-```
-
-## Project Structure
-
-- `app/` - Next.js App Router pages and layouts
-- `components/` - Reusable UI components (layout, ui)
-- `features/` - Feature-specific business logic (types, stores, apis)
-- `lib/` - Utilities, helpers, and Tauri integration
-- `styles/` - SCSS with structured architecture (abstracts, base, components)
-- `public/` - Static assets
+## Overview
+Fast, local-first API testing and debugging workbench built with Next.js and Bun. Built by Luxion Labs as part of our high-velocity open-source engineering ecosystem.
 
 ## Features
+- Zero mandatory account creation or cloud sync locks.
+- Instant request execution with low-overhead HTTP streaming.
+- Environment variable interpolation and collection runners.
+- Native support for REST, GraphQL, and WebSocket probes.
 
-- Clean feature-based architecture
-- Type-safe state management with Zustand
-- Structured SCSS with abstracts, base, and component styles
-- ESLint configuration for code quality
-- Production-ready setup
+## Architecture and Stack
+Bun, Next.js 14, TypeScript, Tailwind CSS, and local IndexedDB storage.
+
+## Quickstart
+```bash
+git clone https://github.com/Luxion-Labs/prism.git && cd prism && bun install && bun dev
+```
+
+## Maintainer Response SLA
+Luxion Labs enforces a strict 24-hour response SLA on all community issues, feature proposals, and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for full development guidelines.
 
 ## License
-
-Proprietary
+Distributed under the MIT License. See [LICENSE](LICENSE) for more details.
